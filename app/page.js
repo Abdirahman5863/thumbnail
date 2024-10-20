@@ -109,11 +109,11 @@ export default function YouTubeThumbnailCreator() {
                   <div 
                     className="absolute z-20"
                     style={{
-                      left: `${fgPosition.x}%`,
-                      top: `${fgPosition.y}%`,
+                      insetInlineStart: `${fgPosition.x}%`,
+                      insetBlockStart: `${fgPosition.y}%`,
                       transform: `translate(-50%, -50%) scale(${fgScale / 100})`,
-                      width: '100%',
-                      height: '100%',
+                      inlineSize: '100%',
+                      blockSize: '100%',
                     }}
                   >
                     <Image
